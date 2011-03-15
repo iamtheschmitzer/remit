@@ -76,6 +76,7 @@ module Remit
     include GetTokenByCaller
     include GetTotalPrepaidLiability
     include GetTransaction
+    include GetTransactionStatus
     include InstallPaymentInstruction
     include Pay
     include Refund

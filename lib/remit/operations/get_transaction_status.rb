@@ -21,7 +21,7 @@ module Remit
       parameter :get_transaction_status_result, :type => GetTransactionStatusResult, :element=>"GetTransactionStatusResult"
     end
 
-    def get_transaction(request = Request.new)
+    def get_transaction_status(request = Request.new)
       call(request, Response)
     end
   end
